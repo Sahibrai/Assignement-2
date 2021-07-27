@@ -1,0 +1,44 @@
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  dl > div {
+    background: #b5e48c;
+    padding: 24px 0 0 0;
+  }
+  
+  dt {
+    background: #184e77;
+    border-bottom: 1px solid #989EA4;
+    border-top: 1px solid #717D85;
+    color: #b5e48c;
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+  
+  dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+  }
+  
+  dd + dd {
+    border-top: 1px solid #6c757d;
+  }
+  h1{
+      font: bold 50px/48px Helvetica, Arial, sans-serif;
+      color: #b5e48c;
+      margin:0;
+      padding: 2px 0 0 12px;
+      position:sticky;
+      background: #6930c3;
+      border-bottom: 4px solid #989EA4;
+      border-top: 1px solid #4f6370;
+      
+  }
